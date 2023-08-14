@@ -1,0 +1,62 @@
+/* home.css */
+.body {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .Heading{
+     margin-top: 100px;
+ }
+.card-container { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+  .card {
+    width: 300px;
+    display: grid;
+    justify-content: center;
+    background-color: gray;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+    transition: transform 0.3s ease; /* Added transition for hover effect */
+    cursor: pointer; /* Added cursor pointer for indicating interactivity */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Added hover effect to slightly scale up the card */
+  }
+ .price {
+    color: red;
+    line-height: 0;
+    font-size: 23px;
+  }
+  
+  .Description {
+    line-height: 0;
+    font-size: 16px;
+  }
+  img{
+    width: 17vw;
+    height: 15vw;
+    padding-top: 10px;
+  }
+  .button {
+    background-color: blueviolet;
+    height: 5vw;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    line-height: 35px;
+    transition: background-color 0.3s ease;
+    padding-top: 0px;
+    margin: auto;
+    margin-bottom: 67px;/* Added transition for button hover effect */
+  }
+  
+  .button:hover {
+    background-color: purple; /* Added hover effect to change the button's background color */
+  }
+  

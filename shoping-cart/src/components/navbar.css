@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.navbar h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar h2:hover {
+    cursor: pointer;
+}
+
+.navbar h2:not(:last-child) {
+    margin-right: 20px;
+}
+.cartCard{
+    display: flex;
+    padding: 91px;
+    border: 2px solid gray;
+    margin: 70px;
+}
+.itemss{
+    padding-left: 20px;
+}
